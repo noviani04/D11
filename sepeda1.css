@@ -1,0 +1,185 @@
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: rgba(210, 105, 30, 0.5);
+    color:black;
+    height: 90px;
+    width: 100%
+
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    font-family: fantasy;
+
+}
+
+.header-list li {
+    float: right;
+    padding: 33px 20px;
+    font-family: fantasy;
+}
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(activity-bicycle-bike-biker-276517.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    webkit-filter:brightness(70%);
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    color: black;
+}
+
+.maintambahan{
+    background-color: ivory;
+    margin: 0 auto;
+    position: relative;
+}
+
+.maintambahan h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+.foto{
+    margin: 30px 50px;
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.foto img:hover{
+    border:8px solid black;
+    font-family: lato;
+    border-radius: 50px 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-list li {
+    flex: auto;
+}
+
+  /* Layout untuk Tablet */
+@media (max-width: 1000px) {
+    .flex-list li {
+    width: 50%;
+    }
+}
+
+  /* Layout untuk Smartphone */
+  /* Tetapkan lebar breakpoint ke 670px dan di bawahnya ke media query */
+@media (max-width:670px) {
+    /* Tetapkan flex-direction milik .flex-list */
+    .flex-list {
+    flex-direction: column;
+    }
+    
+    /* Tetapkan margin dari .flex-list li ke 0 auto */
+    .flex-list li {
+    margin: 0 auto;
+    }
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content-footer{
+    background-color:#FF7F50;
+    float:left;
+    margin: 0 auto;
+    width:100%;
+    padding: 0px 100px;
+
+}
+
+.col-content-footer{
+    padding:10px 0px;
+    float:left;
+    width:25%;
+}  
+
+.col-content-footer h1{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top:30px;
+
+}
+
+.col-content-footer h2{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer{
+    float:left;
+    width:100%;
+    padding: 15px 0px;
+    position: relative;
+    background: #595959;
+    color:#ffffff;
+    
+}
+
+.footer h3{
+    font-weight:normal;
+    text-align: center;
+
+}
+
+.footer h5{
+    font-weight:normal;
+    text-align: center;
+}
+
+.nav-footer{
+    padding:5px 0px;
+}
+
+.nav-footer li{
+    padding:10px 0px;
+    list-style: none;
+    font-size:15px;
+    margin:0px;
+}
